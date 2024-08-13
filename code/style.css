@@ -1,5 +1,5 @@
 html {
-  background: #55562f;
+  background: #c8c6e6;
   color: #fff;
 }
 
@@ -12,12 +12,12 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  align-items: center;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   justify-content: space-between;
   row-gap: 100px;
@@ -37,6 +37,8 @@ img {
 }
 
 .footer {
-  background-color: ;
-  padding: ;
+  background-color: #475c6c;
+  padding: 4rem;
 }
+
+/* responsive */ 
